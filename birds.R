@@ -69,7 +69,7 @@ ggplot(bird_words_df[1:n_words,],
            color = sample.int(10, n_words, replace = TRUE),
            angle = angle)) +
   geom_text_wordcloud_area() + 
-  scale_size_area(max_size = 20) +
+  scale_size_area(max_size = 30) +
   theme_minimal() +
   scale_color_continuous(type = "viridis")
 
